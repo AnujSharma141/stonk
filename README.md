@@ -1,6 +1,6 @@
 
 <p align="center">
-    <img width="680" src="https://i.ibb.co/XyNC65m/image.png" />
+    <img width="640" src="https://i.ibb.co/NKs7ChY/image.png" />
 </p>
 
 ## :rocket: Install
