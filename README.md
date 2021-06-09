@@ -3,8 +3,9 @@
     <img width="670" src="https://i.ibb.co/0fjypgS/image.png" />
 </p>
 
-[![npm build](https://img.shields.io/static/v1?label=build&message=passing&style=flat-square&color=40c744&labelColor=black)](https://www.npmjs.com/package/@anujsharma141/reactsearch)
-[![npm version](https://img.shields.io/static/v1?label=version&message=1.0.2&style=flat-square&color=3c5cc7&labelColor=black)](https://www.npmjs.com/package/@anujsharma141/reactsearch)
+[![npm build](https://img.shields.io/static/v1?label=build&message=passing&style=flat-square&color=40c744&labelColor=black)]
+(https://www.npmjs.com/package/@anujsharma141/stonk)
+[![npm version](https://img.shields.io/static/v1?label=version&message=1.0.2&style=flat-square&color=3c5cc7&labelColor=black)](https://www.npmjs.com/package/@anujsharma141/stonk)
 
 ## :rocket: Install
 
