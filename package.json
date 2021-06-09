@@ -1,13 +1,13 @@
 {
-  "name": "stonk",
-  "version": "1.0.1",
+  "name": "@anujsharma141/stonk",
+  "version": "1.0.2",
   "description": "CLI to get indian stocks data.",
-  "main": "index.js",
+  "main": "./bin/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "bin": {
-    "stonk": "./index.js"
+    "stonk": "./bin/index.js"
   },
   "devDependencies": {
     "@babel/core": "^7.13.1",
@@ -27,7 +27,15 @@
     "type": "git",
     "url": "git+https://github.com/AnujSharma141/lyricspotify.git"
   },
-  "keywords": [],
+  "keywords": [
+    "stocks",
+    "finance",
+    "cli",
+    "indian stock market",
+    "ISE",
+    "BSE",
+    "NSE"
+  ],
   "author": "Anuj Sharma <anujsharma76757@gmail.com>",
   "license": "ISC",
   "bugs": {
@@ -40,6 +48,7 @@
     "esm": "^3.2.25",
     "got": "^11.8.2",
     "ora": "^5.4.0",
+    "shebang-loader": "^0.0.1",
     "table": "^6.7.1",
     "yargs": "^17.0.1"
   }

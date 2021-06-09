@@ -22,7 +22,7 @@ const options = yargs
 
 
 if(options.info) info(options.info)
-if(options.search) search(options.search)
+if(options.search) search.log(options.search)
 if(options.remove) port.remove(options.remove)
 if(options.add) port.add(options.add)
 if(options.w) port.log()

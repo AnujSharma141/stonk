@@ -15,6 +15,7 @@ function searchTransformer(isIndex) {
       matcher = /symbol=(.*?)&/;
     }
     return function (data) {
+      try{
       var matches = data.match(/<li>(.*?)<\/li>/g);
       return matches.map(function (value1) {
         var symbol = value1.match(matcher);
@@ -25,23 +26,37 @@ function searchTransformer(isIndex) {
         }
       })
     }
+    catch(error){
+    }
+    }
   }
 
 
 //data fetch 
-async function search(key){    
-const spinner = ora('searching').start()
-axios.get(SEARCH_URL + encodeURIComponent(key), {
+async function req(key){     
+return axios.get(SEARCH_URL + encodeURIComponent(key), {
     headers: {
       'X-Requested-With': 'XMLHttpRequest',
       'Referer': 'https://www.nseindia.com/ChartApp/install/charts/mainpage.jsp',
       Host: 'www.nseindia.com'
     },
     transformResponse: searchTransformer(false)
-  }).then(res => {
-      spinner.stop()
-      res.data.map(item => console.log(`${item.symbol} : ${item.name} `))
   })
+}
+
+const log = key => {
+const spinner = ora('searching').start()
+req(key)
+.then(res => {
+  spinner.stop()
+  res.data?res.data.map(item => console.log(`${item.symbol} : ${item.name} `))
+  : console.log('not found!')
+})
+}
+
+const search = {
+  req : req,
+  log: log
 }
 
 export default search
