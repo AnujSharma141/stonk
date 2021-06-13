@@ -1,6 +1,6 @@
 {
   "name": "@anujsharma141/stonk",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI to get indian stocks data.",
   "main": "./bin/index.js",
   "scripts": {

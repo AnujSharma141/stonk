@@ -18,7 +18,7 @@ const add = ticker =>{
             const filter = res.data.filter(item => item.symbol === ticker)
             filter.length === 0 ? console.log('ticker not valid!'): (()=>{
                 //file update
-                fs.writeFileSync('data/list.json',JSON.stringify(inst))
+                fs.writeFileSync('./data/list.json',JSON.stringify(inst))
                 console.log(ticker + ' added in watchlist!')
             })()
         })()
@@ -30,7 +30,7 @@ const remove = ticker =>{
     const inst = data
     const filter = inst.list.filter(item => item !== ticker)
     //validate
-    fs.writeFileSync('data/list.json',JSON.stringify({list:filter}))
+    fs.writeFileSync('./data/list.json',JSON.stringify({list:filter}))
     inst.list.length === filter.length? console.log('not found!'):
     console.log(ticker + ' removed from watchlist!')
 }
