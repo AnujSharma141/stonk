@@ -1,6 +1,6 @@
 {
   "name": "@anujsharma141/stonk",
-  "version": "1.0.3",
+  "version": "1.1.7",
   "description": "CLI to get indian stocks data.",
   "main": "./bin/index.js",
   "scripts": {
@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AnujSharma141/lyricspotify.git"
+    "url": "git+https://github.com/AnujSharma141/stonk.git"
   },
   "keywords": [
     "stocks",
@@ -39,9 +39,9 @@
   "author": "Anuj Sharma <anujsharma76757@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AnujSharma141/lyricspotify/issues"
+    "url": "https://github.com/AnujSharma141/stonk/issues"
   },
-  "homepage": "https://github.com/AnujSharma141/lyricspotify#readme",
+  "homepage": "https://github.com/AnujSharma141/stonk#readme",
   "dependencies": {
     "axios": "^0.21.1",
     "chalk": "^4.1.1",

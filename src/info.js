@@ -1,5 +1,5 @@
 import col from './col'
-import header from '../data/header'
+import header from './data/header'
 import { table, getBorderCharacters } from 'table'
 import ora from 'ora'
 
