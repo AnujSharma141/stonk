@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+body::-webkit-scrollbar{
+    width: 0.3vw;
+    background: transparent;
+}
+body::-webkit-scrollbar-thumb{
+    background: #979797; 
+
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+}
+
+.fixed{
+    width: 52%;
+    height: 100%;
+    position: fixed;
+    background: #F1F1F1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.terminal{
+    width: 35vw;
+}
+.wrap{
+    margin-left: 51vw;
+}
+.docs{
+    margin-left: 7vw;
+    margin-top: 9vw;
+}
+.graphic{
+    position: absolute;
+    right: 3vw;
+    width: 37vw;
+    top: 2.5vw;
+}
+.title{
+    font-size: 3.1vw;
+    font-weight: 500;
+    margin-bottom: 2vw;
+}
+.subtitle{
+    font-size: 1.3vw;
+    color: rgb(185, 185, 185);
+    width: 24vw;
+    line-height: 2.8vw;
+    margin-bottom: 3vw;
+}
+
+.index-title{
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin-top: 6vw;
+    color: #3D3D3D;
+}
+.code{
+    background: #F1F1F1;
+    padding: 1vw 2vw;
+    color: #474747;
+    font-weight: 400;
+    margin-top: 2.15vw;
+    font-size: 0.98vw;
+}
+
+.tab-title{
+    font-size: 1.2vw;
+    font-weight: 500;
+    margin-top: 3vw;
+    margin-bottom: 0;
+    color: #252525;
+}
+.tab-text{
+    color: #707070;
+    font-size: 0.98vw;
+    font-weight: 400;
+    margin-top: 2.3vw;
+}
+.tab-code{
+    background: #F1F1F1;
+    padding: 1vw 2vw;
+    color: #474747;
+    font-weight: 400;
+    margin-top: 2.2vw;
+    font-size: 0.98vw;
+    margin-bottom: 8vw;
+}
+
+.footer{
+    margin-top: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 5vw;
+}
+.button{
+    background: #474747;
+    color: #F1F1F1;
+    padding: 1.2vw 2vw;
+    margin: 2vw 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+.button:hover{
+    background: #6d6d6d;
+}
+.links{
+    margin-top: 3vw;
+}
+.link{
+    text-decoration: none;
+    cursor: pointer;
+}
+.link-icon{
+    margin-right: 1vw;
+    width: 1.4vw;
+}
+.credit{
+color: #707070;
+font-size: 0.98vw;
+margin-top: 2vw;
+}
+.icon{
+    width: 1.1vw;
+    margin: 0 1vw;
+    margin-top: 0.5vw;
+    margin-bottom: -0.2vw;
+    margin-left: 0.1vw;
+}
+.credit-name{
+    color: #313131;
+    font-family: 500;
+}
