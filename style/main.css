@@ -22,7 +22,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 .fixed{
-    width: 52%;
+    width: 54%;
     height: 100%;
     position: fixed;
     background: #F1F1F1;
@@ -34,7 +34,7 @@ body::-webkit-scrollbar-thumb{
     width: 35vw;
 }
 .wrap{
-    margin-left: 51vw;
+    margin-left: 54vw;
 }
 .docs{
     margin-left: 7vw;
@@ -42,20 +42,21 @@ body::-webkit-scrollbar-thumb{
 }
 .graphic{
     position: absolute;
+    z-index: -1;
     right: 3vw;
-    width: 37vw;
+    width: 35vw;
     top: 2.5vw;
 }
 .title{
-    font-size: 3.1vw;
+    font-size: 2.73vw;
     font-weight: 500;
     margin-bottom: 2vw;
 }
 .subtitle{
-    font-size: 1.3vw;
+    font-size: 1.2vw;
     color: rgb(185, 185, 185);
-    width: 24vw;
-    line-height: 2.8vw;
+    width: 23vw;
+    line-height: 2.7vw;
     margin-bottom: 3vw;
 }
 
@@ -67,12 +68,33 @@ body::-webkit-scrollbar-thumb{
 }
 .code{
     background: #F1F1F1;
-    padding: 1vw 2vw;
+    padding: 0.75vw 1vw 0.75vw 2vw ;
     color: #474747;
     font-weight: 400;
+    width: 23vw;
     margin-top: 2.15vw;
     font-size: 0.98vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+.code-text{
+    margin: 0;
+}
+.copy{
+    background: #ffffff;
+
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    padding: 0.45vw;
+}
+
+.copied{
+    display: none;
+}
+
 
 .tab-title{
     font-size: 1.2vw;
