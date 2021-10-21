@@ -48,20 +48,20 @@ body::-webkit-scrollbar-thumb{
     top: 2.5vw;
 }
 .title{
-    font-size: 2.73vw;
+    font-size: 2.3vw;
     font-weight: 500;
     margin-bottom: 2vw;
 }
 .subtitle{
-    font-size: 1.2vw;
+    font-size: 1vw;
     color: rgb(185, 185, 185);
-    width: 23vw;
-    line-height: 2.7vw;
+    width: 19vw;
+    line-height: 2.5vw;
     margin-bottom: 3vw;
 }
 
 .index-title{
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-weight: 500;
     margin-top: 6vw;
     color: #3D3D3D;
@@ -73,7 +73,7 @@ body::-webkit-scrollbar-thumb{
     font-weight: 400;
     width: 23vw;
     margin-top: 2.15vw;
-    font-size: 0.98vw;
+    font-size: 0.9vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -150,7 +150,7 @@ body::-webkit-scrollbar-thumb{
 }
 .credit{
 color: #707070;
-font-size: 0.98vw;
+font-size: 0.92vw;
 margin-top: 2vw;
 }
 .icon{
