@@ -2,7 +2,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Inter', monospace;
 }
 body::-webkit-scrollbar{
     width: 0.3vw;
@@ -25,7 +25,8 @@ body::-webkit-scrollbar-thumb{
     width: 54%;
     height: 100%;
     position: fixed;
-    background: #F1F1F1;
+    background-color: #c7a4ff;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,7 +39,7 @@ body::-webkit-scrollbar-thumb{
 }
 .docs{
     margin-left: 7vw;
-    margin-top: 9vw;
+    margin-top: 8vw;
 }
 .graphic{
     position: absolute;
@@ -49,7 +50,7 @@ body::-webkit-scrollbar-thumb{
 }
 .title{
     font-size: 2.3vw;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 2vw;
 }
 .subtitle{
@@ -127,15 +128,19 @@ body::-webkit-scrollbar-thumb{
     margin-bottom: 5vw;
 }
 .button{
-    background: #474747;
-    color: #F1F1F1;
+    background: #d5b9ff;
+    color: #000;
     padding: 1.2vw 2vw;
     margin: 2vw 0;
+    font-size: 0.95vw;
     cursor: pointer;
     text-decoration: none;
+    border: 2px solid black;
 }
 .button:hover{
-    background: #6d6d6d;
+    background: #000;
+    color: #fff;
+    border: 2px solid black;
 }
 .links{
     margin-top: 3vw;
