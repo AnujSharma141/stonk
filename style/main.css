@@ -25,8 +25,8 @@ body::-webkit-scrollbar-thumb{
     width: 54%;
     height: 100%;
     position: fixed;
-    background-color: #c7a4ff;
-
+    background: url('../assets/download\ \(1\).png')  top;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,7 +51,7 @@ body::-webkit-scrollbar-thumb{
 .title{
     font-size: 2.3vw;
     font-weight: 600;
-    margin-bottom: 2vw;
+    margin-bottom: 1vw;
 }
 .subtitle{
     font-size: 1vw;
@@ -128,19 +128,17 @@ body::-webkit-scrollbar-thumb{
     margin-bottom: 5vw;
 }
 .button{
-    background: #d5b9ff;
-    color: #000;
+    background: #000000;
+    color: #ffffff;
     padding: 1.2vw 2vw;
     margin: 2vw 0;
     font-size: 0.95vw;
     cursor: pointer;
     text-decoration: none;
-    border: 2px solid black;
 }
 .button:hover{
-    background: #000;
-    color: #fff;
-    border: 2px solid black;
+    background:rgb(147, 101, 255) ;
+    color: #ffffff;
 }
 .links{
     margin-top: 3vw;
